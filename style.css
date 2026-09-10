@@ -1,0 +1,91 @@
+body{
+    font-family:"Inter","Arial",sans-serif;
+    font-size:16px;
+    color:#3f3f3f;
+    background-color: #FFFFFF;
+}
+#Avatar{
+    width: clamp(110px,20vw,150px);
+    aspect-ratio:3/4;
+    object-fit:cover;
+    border:2px solid lightgray;
+}
+.profile{
+    display:flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.stitle{
+    margin-left: 15px;
+}
+.details{
+    padding:0 15px;
+}
+.ev{
+    display:flex;
+    gap:clamp(100px,5vw,225px);
+}
+.periods{
+    margin: clamp(10px,2vw,50px) auto auto 15px;
+}
+#edu_desc{
+    display:flex;
+    flex-direction: column;
+}
+hr{
+    margin:0 auto 15px 0;
+}
+.head{
+    font-size: 18px;
+    font-weight: bold;
+}
+.inf{
+    font-weight: lighter;
+}
+#Name{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.title_ss{
+    font-weight: bold;
+}
+
+#skills,#achv{
+    margin-left: clamp(15px,1vw,25px);
+}
+.anno{
+    font-size:clamp(0.9rem,3vw,1rem);
+}
+.edulv{
+    display:flex;
+    flex-direction: column;
+    gap:clamp(10px,2vh,15px);
+}
+.years{
+    flex-grow:0;
+    flex-shrink:0;
+    flex-basis: clamp(160px,10rem,200px);
+}
+.edu_desc{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+.sskills{
+    font-weight: lighter;
+}
+#skills{
+    display:flex;
+    flex-direction: column;
+}
+.title_ss{
+    margin:auto 0 3px 0;
+}
+#cert{
+    margin-bottom: 5px;
+}
