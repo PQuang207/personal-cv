@@ -15,4 +15,4 @@ A responsive personal CV built with HTML and CSS
 - HTML 5
 - CSS 3
 - Flexbox
-- Media Queries
+- Responsive Design
